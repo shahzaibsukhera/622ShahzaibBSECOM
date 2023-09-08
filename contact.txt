@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>SHAHZAIB Gym: Contact Us</title>
+    <style>
+        body {
+            color: white;
+            background: url("gymimg.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .logo {
+            height: 15vh;
+        }
+
+        .left {
+            color: grey;
+            position: absolute;
+            display: inline-block;
+            top: 30px;
+            left: 50px;
+            text-align: center;
+        }
+
+        .mid {
+            display: block;
+            width: 40%;
+            margin: 20px auto;
+        }
+
+        .right {
+            position: absolute;
+            top: 20px;
+            display: inline-block;
+            right: 34px;
+        }
+
+        .nav {
+            display: inline-block;
+            border: 2px solid grey;
+            border-radius: 20px;
+        }
+
+        .nav li {
+            display: inline-block;
+            font-size: 19px;
+            padding: 8px 19px;
+        }
+
+        .nav li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav li a:hover {
+            text-decoration: underline;
+            color: grey;
+        }
+
+        .logo img {
+            height: 100px;
+            border-radius: 20px;
+        }
+
+        .right input {
+            color: white;
+            background-color: black;
+            padding: 8px;
+            margin: 2px;
+            border: 1px solid yellow;
+            border-radius: 10px;
+            border-right: solid blue;
+            border-left: solid green;
+            border-top: solid purple1;
+            border-bottom: solid red;
+            cursor: pointer;
+        }
+
+        .right input:hover {
+            background-color: grey;
+        }
+
+        .container {
+            font-size: 25px;
+            text-align: center;
+            margin: 70px 450px;
+            padding: 15px;
+            border: 3px solid grey;
+            border-radius: 10px;
+            width: 30vw;
+            height: 60vh;
+        }
+
+        .formgroup input {
+            text-align: center;
+            display: block;
+            width: 88%;
+            padding: 5px;
+            margin: 12px auto;
+            border-radius: 5px;
+        }
+
+        .btn {
+            font-size: 20px;
+            border: 2px solid grey;
+            border-radius: 5px;
+            width: 90%;
+        }
+        
+
+        /* Additional styles for the Contact Us page */
+        .contact-container {
+            font-size: 25px;
+            text-align: center;
+            padding: 15px;
+            border: 3px solid grey;
+            border-radius: 10px;
+            width: 70%; /* Adjust this value as needed */
+            max-width: 600px; /* Add a maximum width for responsiveness */
+            margin: 0 auto; /* Center horizontally */
+            background: rgba(0, 0, 0, 0.7); /* Add a semi-transparent background */
+            color: white; /* Set text color to white */
+            overflow: hidden; /* Add this to contain floated elements within */
+        }
+
+        .contact-info {
+            padding: 20px;
+            text-align: left;
+        }
+
+        .contact-info p {
+            margin: 0;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+<header class="header">
+    <div class="left">
+        <div class="logo">
+            <img src="logo.jpg" alt="Logo">
+        </div>
+        <span style="color:white ;font-size:25px;opacity:0.8;padding:18px">SHAHZAIB Gym</span>
+    </div>
+    <div class="mid">
+        <ul class="nav">
+            <li><a href="main.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact US</a></li> <!-- Link to the Contact Us page -->
+            <li><a href="#">Fitness Center</a></li>
+        </ul>
+    </div>
+    <div class="right">
+        <input type="button" value="Contact us now">
+        <input type="button" value="Email US">
+    </div>
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <div class="contact-info">
+            <p><strong>Address:</strong> 123 Gym Street, Fitness City</p>
+            <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+            <p><strong>Email:</strong> info@shahzaibgym.com</p>
+            <!-- Add more contact information as needed -->
+        </div>
+    </div>
+</header>
+</body>
+</html>
